@@ -26,7 +26,19 @@ class MainActivity : ComponentActivity() {
                     )
                 }
             }
+            week02Variables()
         }
+    }
+
+    private fun week02Variables() {
+        println("Week 02: Variables")
+        TODO("Not yet implemented")
+
+        val courseName = "Mobile Programming"
+        var week = 1
+        var week = 2
+        println("Course : $courseName")
+        println("Week : $week")
     }
 }
 
